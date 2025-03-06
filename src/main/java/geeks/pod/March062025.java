@@ -2,7 +2,7 @@ package geeks.pod;
 
 public class March062025 {
 
-    static int lcs(String s1, String s2) {
+   public static int lcs(String s1, String s2) {
         // code here
         int m = s1.length();
         int n = s2.length();
