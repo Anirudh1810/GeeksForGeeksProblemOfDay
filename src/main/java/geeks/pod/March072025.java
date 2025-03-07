@@ -2,7 +2,7 @@ package geeks.pod;
 
 public class March072025 {
 
-    public int longestPalinSubseq(String s) {
+    public static int longestPalinSubseq(String s) {
         int n = s.length();
         // Create a 2D dp array where dp[i][j] represents the length of the
         // longest palindromic subsequence in the substring s[i...j]
@@ -36,7 +36,7 @@ public class March072025 {
         return dp[0][n-1];
     }
 
-    public int longestPalinSubseq1(String s) {
+    public static int longestPalinSubseq1(String s) {
 
         String r = new StringBuilder(s).reverse().toString();
         int n = s.length();
